@@ -1,0 +1,263 @@
+body{
+  margin: 0;
+  border: none;
+  padding: 0;
+  padding-top: 90px;
+  background-color: rgb(27, 40, 54);
+  color: white;
+  font-family: verdana sans-serif;
+}
+.navbar{
+  position: fixed;
+  top:0px;
+  left:0px;
+  right: 0px;
+  background-color: black;
+  border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size:25px;
+  z-index: 1;
+}
+.navbar img{
+  margin:10px 2%;
+  padding:0;
+  position: relative;
+  max-width: 20vh;
+  max-height: 10vh;
+  width: auto;
+  height: auto;
+}
+.navbar ul{
+  position: absolute;
+  right: 15px;
+  top: 0px;
+
+}
+.navbar li{
+  display: inline-block;
+  padding: 5px 0;
+  margin: auto 0;
+}
+.navbar ul:hover li, .right ul:hover li{
+  filter: blur(5px);
+  transition: 500ms;
+}
+.navbar ul li:hover, .right ul li:hover{
+  filter: blur(0px);
+  transition: 500ms;
+}
+.navbar a{
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  margin: auto 0;
+  color: white;
+	padding:10px 10px;
+	border:none;
+  transition: 500ms;
+  }
+.navbar a:hover{
+  background-size: cover;
+  border-radius: 10px;
+  border-style: solid hidden;
+  border-color: #e75480;
+  border-width: 5px;
+  transition: 500ms;
+  background-color: #e75480;
+}
+.body-center a:hover, .body-center h3:hover{
+  color: #e75480
+}
+.body-center{
+  margin-bottom: 10%;
+  text-align: justify;
+}
+.right-menu{
+  position: fixed;
+  top:20%;
+  right: 5%;
+}
+.thing{
+  padding-left: 10%;
+  padding-right: 15%;
+  margin: 0;
+}
+#header h2{
+  margin: 10%;
+}
+#header h4{
+  margin-top: 5%;
+}
+.right-menu ul{
+  list-style-type: none;
+}
+.right-menu a{
+  text-decoration: none;
+  color:#3f3f3f;
+  line-height: 1.5em;
+  font-size: 20px;
+  padding: 1.5em;
+  padding-right: 0;
+}
+.right-menu li{
+  background-color: white;
+  padding:.5em 4em;
+  padding-left: 0;
+  margin-bottom: 1.5em;
+  border-radius: 50px;
+  border-right: 25px solid white;
+  transition: 150ms;
+}
+h2{
+  color:#dcdcdc;
+}
+h1{
+  font-size: 5em;
+  color: #e75480;
+  margin: 0 auto;
+}
+h4{
+  text-align: right;
+  padding-bottom: 5%;
+  margin-top: 2%;
+  color: #dcdcdc;
+}
+h3{
+  color: darkgrey;
+  font-size: 40px;
+  margin-left: 0px;
+}
+.thing p, .thing ul, .spec{
+  margin-left: 25px;
+}
+.body-center{
+  font-size: 1.25em;
+  color: #rgb(200,200,200);
+  line-height: 25px;
+  width: 100%;
+}
+.body-center section{
+  margin-bottom: 100px;
+  position: relative;
+}
+.body-center a{
+  text-decoration: none;
+  color: #f5f5f5;
+}
+.body-center ul{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 50px;
+  list-style-type: none;
+}
+.width-control{
+  display: block;
+  width: 80%;
+  left: 0%;
+  padding: 15px 50px;
+  border-radius: 50px;
+  margin: 0;
+}
+.foot-wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgba(0,0,0,0.1);
+}
+.left{
+  position: relative;
+}
+.left img{
+  position: absolute;
+  left: 10%;
+  max-width: 40vh;
+  max-height: 20vh;
+  margin: auto;
+  display: block;
+  height: auto;
+  width: auto;
+  padding-top: 5%;
+}
+.center{
+}
+.links{
+}
+.center ul{
+  list-style-type: none;
+}
+.center ul li{
+  text-align: center;
+}
+.center a{
+  text-decoration: none;
+  color: #e75480;
+  font-size: 2em;
+}
+.right{
+  position: relative;
+  margin: 1%;
+  padding: 5px;
+}
+.right ul{
+  position: absolute;
+  right: 5%;
+  display: inline-block;
+  padding: 0;
+  margin: 10% 0;
+}
+.right li{
+  display: inline-block;
+}
+.right ul li a{
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  border-radius: 50px;
+  background-size: cover;
+  text-decoration: none;
+  background-color: #aaa;
+  margin: auto 4%;
+}
+.fb{
+  background-image: url(icons/fb.png);
+  transition: 500ms;
+}
+.tw{
+  background-image: url(icons/tw.png);
+  transition: 500ms;
+}
+.rd{
+  background-image: url(icons/rd.png);
+  transition: 500ms;
+}
+.git{
+  background-image: url(icons/gh.png);
+  transition: 500ms;
+}
+.in{
+  background-image: url(icons/in.png);
+  transition: 500ms;
+}
+.fb:hover{
+  background-image: url(icons/fbc.png);
+  transition: 500ms;
+}
+.tw:hover{
+  background-image: url(icons/twc.png);
+  transition: 500ms;
+}
+.rd:hover{
+  background-image: url(icons/rdc.png);
+  transition: 500ms;
+}
+.git:hover{
+  background-image: url(icons/ghc.png);
+  transition: 500ms;
+}
+.in:hover{
+  background-image: url(icons/inc.png);
+  transition: 500ms;
+}

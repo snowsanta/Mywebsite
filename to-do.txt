@@ -1,0 +1,28 @@
+main-body{
+  interests and shit
+}
+right pane{
+  headings in the page
+  animated right blob
+  clickable
+}
+footer{
+  left {
+    logo
+  }
+  right{
+    icons
+  }
+  mid{
+    name
+    disclaim
+    navbar-links
+  }
+}
+navbar{
+  About - general background
+  Acheivments - just some shit
+  productivity chart - still tryna find
+  projects - ongoing ones
+  the others - didnt know
+}
